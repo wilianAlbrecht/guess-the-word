@@ -4,7 +4,7 @@
 
 It is a simple game. The computer will take a random word, and you need guess what is the word.<br>
 
-Rules:
+Rules:<br>
 1- The computer will choose a random word. <br>
 2- You will try guess the letters of the word.<br>
 3- If you now what is the word, type [res] to answer.<br>
