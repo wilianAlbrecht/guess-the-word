@@ -45,6 +45,7 @@ def game_PTBR():
             user_word = validation(secret_word, op,user_word)
 
             if "-" not in user_word:
+                os.system("cls")
                 win(secret_word, user_att)
                 break
 
@@ -72,7 +73,7 @@ def validation(secret_word, op, user_word):
 
 def win(secret_word, user_att):
 
-    print("Parabéns você acertou a palavra {} com {} tentativas. \n\n".format(secret_word, user_att))
+    print('Parabéns você acertou a palavra "{}" com {} tentativas. \n\n'.format(secret_word, user_att))
     again = input("Jogar novamente?[Y] ")
 
     if again.lower() == "y":
