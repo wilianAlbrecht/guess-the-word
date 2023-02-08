@@ -10,7 +10,7 @@ def game_PTBR():
 
     print("como jogar: ")
     print("1- O computador ira escolher uma palavra aleatoria ")
-    print("2- voce terá que advinhar quais são as letras da palavra ate completala ")
+    print("2- voce terá que advinhar quais são as letras da palavra ate completa-la ")
     print("3- Se você já souber a palavra digite [res] para responder qual a palavra completa ")
     print("4- você não tem limites de tentativas para acertar ")
     print("5- As palavras não contém acentuação para facilitar")
